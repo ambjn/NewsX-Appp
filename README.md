@@ -22,6 +22,6 @@ In the command terminal, run the following commands:
 ## Screenshots:
 
 
-<center> <img src = screenshot/1.gif alt='screenshot-of-app'> </center>
+<center> <img src = screenshots/1.gif alt='screenshot-of-app'> </center>
 
 
