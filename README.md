@@ -19,6 +19,6 @@ In the command terminal, run the following commands:
     $ cd NewsX-Flutter-App
     $ flutter run
 
-## Screenshots:
+## Screenshots / GIF:
 
 <center> <img src = screenshots/1.gif alt='screenshot-of-app'> </center>

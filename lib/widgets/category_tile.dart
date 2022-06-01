@@ -9,37 +9,33 @@ class CategoryTile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return GestureDetector(
-      child: Container(
-        margin: const EdgeInsets.only(right: 16),
-        child: Stack(children: [
-          ClipRRect(
-            borderRadius: BorderRadius.circular(6),
-            child: CachedNetworkImage(
-              height: 60,
-              width: 120,
-              fit: BoxFit.cover,
-              imageUrl: imageUrl,
-            ),
-          ),
-          Container(
-            alignment: Alignment.center,
-            decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(6),
-              color: Colors.black26,
-            ),
+    return Container(
+      margin: const EdgeInsets.only(right: 16),
+      child: Stack(children: [
+        ClipRRect(
+          borderRadius: BorderRadius.circular(6),
+          child: CachedNetworkImage(
             height: 60,
             width: 120,
-            child: Text(
-              categoryName,
-              style: const TextStyle(
-                  color: Colors.white,
-                  fontSize: 14,
-                  fontWeight: FontWeight.w500),
-            ),
-          )
-        ]),
-      ),
+            fit: BoxFit.cover,
+            imageUrl: imageUrl,
+          ),
+        ),
+        Container(
+          alignment: Alignment.center,
+          decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(6),
+            color: Colors.black26,
+          ),
+          height: 60,
+          width: 120,
+          child: Text(
+            categoryName,
+            style: const TextStyle(
+                color: Colors.white, fontSize: 14, fontWeight: FontWeight.w500),
+          ),
+        )
+      ]),
     );
   }
 }

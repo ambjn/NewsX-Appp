@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'NewsX',
       theme: ThemeData(primaryColor: Colors.white),
-      home: Home(),
+      home: const Home(),
     );
   }
 }

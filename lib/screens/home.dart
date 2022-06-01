@@ -54,7 +54,7 @@ class _HomeState extends State<Home> {
         ),
       ),
       body: _loading
-          ? Center(child: Container(child: CircularProgressIndicator()))
+          ? Center(child: Container(child: const CircularProgressIndicator()))
           : SingleChildScrollView(
               child: Container(
                   padding: const EdgeInsets.symmetric(horizontal: 16),
