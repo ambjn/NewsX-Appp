@@ -21,4 +21,4 @@ In the command terminal, run the following commands:
 
 ## Screenshots:
 
-<center> <img src = screenshots/1.gif alt='screenshot-of-app'> </center>
+<center> <img src = 'https://github.com/ambjn/NewsX-Flutter-App/blob/master/screenshots/1.gif' alt='screenshot-of-app'> </center>
